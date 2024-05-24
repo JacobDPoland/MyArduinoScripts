@@ -10,7 +10,7 @@ void setup() {
 
   Keyboard.print("https://www.youtube.com/shorts/KKlT6kReCZs");
   Keyboard.releaseAll();
-  delay(500);
+  delay(1000);
   
   Keyboard.press(KEY_KP_ENTER);
   Keyboard.releaseAll();
