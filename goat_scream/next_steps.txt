@@ -1,0 +1,4 @@
+Next steps:
+* fix loop
+* check if the file is downloaded before downloading
+* close windows after they are done being used
