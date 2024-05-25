@@ -1,14 +1,6 @@
 #include <Keyboard.h>
 
 void setup() {
-
-}
-
-void loop() {
-  for(int i = 0; i < 2; i++){
-    delay(30000);
-  }
-
   Keyboard.begin();
   delay(500);
   Keyboard.press(KEY_LEFT_GUI);
@@ -31,4 +23,8 @@ void loop() {
   Keyboard.releaseAll();
 
   Keyboard.end();
+}
+
+void loop() {
+
 }
