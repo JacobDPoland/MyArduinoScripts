@@ -8,11 +8,11 @@ void setup() {
   Keyboard.releaseAll();
   delay(500);
 
-  Keyboard.print("https://www.youtube.com/shorts/KKlT6kReCZs");
+  Keyboard.print("https://www.youtube.com/watch?v=GFq6wH5JR2A");
   Keyboard.releaseAll();
   delay(1000);
   
-  Keyboard.press(KEY_KP_ENTER);
+  Keyboard.press(KEY_KP_ENTER); 
   Keyboard.releaseAll();
 
   Keyboard.end();
