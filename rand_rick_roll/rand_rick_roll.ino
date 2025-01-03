@@ -27,11 +27,6 @@ void type_string(char* string){
 }
 
 void setup() {
-  Serial.begin(9600);
-
-  while (!Serial) {
-    ; // Wait for the serial port to be established
-  }
 
   randomSeed(micros());
   
