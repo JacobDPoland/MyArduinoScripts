@@ -1,7 +1,7 @@
 #include <Keyboard.h>
 
 // link strings
-char* links[] = {
+String links[] = {
   "https://www.youtube.com/watch?v=MrabnIbjbTo",
   "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "https://www.youtube.com/watch?v=7q7wAABkdaQ",
@@ -30,7 +30,7 @@ void press_GUI_key() {
   delay(500);
 }
 
-void type_string(char* string){
+void type_string(String string){
   Keyboard.print(string);
   Keyboard.releaseAll();
 }
