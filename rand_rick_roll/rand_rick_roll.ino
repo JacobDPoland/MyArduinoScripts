@@ -41,7 +41,8 @@ void setup() {
   //   ; // Wait for the serial port to be established
   // }
 
-  randomSeed(micros());
+  // randomSeed(micros());  // random wasn't working with this
+  randomSeed(analogRead(A0));
   
   Keyboard.begin();
   delay(500);
